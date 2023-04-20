@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^vendor/([0-9a-zA-Z]+) vendor.php?user=$1 [NC,L]
+RewriteRule ^invitation/([0-9a-zA-Z]+) invite.php?couple=$1 [NC,L]
